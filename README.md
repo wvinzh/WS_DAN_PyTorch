@@ -18,6 +18,7 @@ This is a PyTorch implementation of the paper
 | FGVC-Aircraft | 93.15 | 93.22      | 93.0
 | Stanford Cars | 94.13 |  94.43   | 94.5
 | Stanford Dogs | 86.03 | 86.46     | 92.2
+
 You can download pretrained models from [WS_DAN_Onedrive](https://1drv.ms/f/s!AseTbxZ7P87UknnvrfLAsIFlhAmb)
 
 ## Install
@@ -105,7 +106,7 @@ python train_bap.py train\
     --dataset car \
     --image-size 512 \
     --input-size 448 \
-    --checkpoint-path checkpoint/car_v7 \
+    --checkpoint-path checkpoint/car \
     --optim sgd \
     --scheduler step \
     --lr 0.001 \
@@ -128,7 +129,7 @@ python train_bap.py test\
     --dataset car \
     --image-size 512 \
     --input-size 448 \
-    --checkpoint-path checkpoint/car_v7 \
+    --checkpoint-path checkpoint/car/model_best.pth.tar \
     --workers 4 \
     --parts 32 \
     --use-gpu \
