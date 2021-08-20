@@ -19,7 +19,7 @@ This is a PyTorch implementation of the paper
 | Stanford Cars | 94.13 |  94.43   | 94.5
 | Stanford Dogs | 86.03 | 86.46     | 92.2
 
-You can download pretrained models from [WS_DAN_Onedrive](https://1drv.ms/f/s!AseTbxZ7P87UknnvrfLAsIFlhAmb)
+You can download pretrained models from [WS_DAN_Onedrive](https://1drv.ms/u/s!AseTbxZ7P87UknnvrfLAsIFlhAmb?e=XC0DFn)
 
 ## Install
 
