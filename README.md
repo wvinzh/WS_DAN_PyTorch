@@ -137,3 +137,7 @@ python train_bap.py test\
     --gpu-ids 0,1 \
 ```
 
+
+## License
+
+This project is released under the [MIT License](LICENSE).
